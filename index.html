@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dave Garcia — Director of Photography · Los Angeles</title>
+<meta name="description" content="Dave Garcia (DG) is a Los Angeles director of photography shooting live events, brand films and music videos for Netflix, Nickelodeon, Mattel, iHeartRadio and Woodford Reserve.">
+<meta name="theme-color" content="#070707">
+<link rel="canonical" href="https://www.dgthings.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dave Garcia — Director of Photography">
+<meta property="og:description" content="Live events, brand films and music videos. Netflix, Nickelodeon, Mattel, iHeart and more.">
+<meta property="og:image" content="https://www.dgthings.com/img/og.jpg">
+<meta property="og:url" content="https://www.dgthings.com/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://player.vimeo.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/tudum-open.jpg">
+<link rel="stylesheet" href="css/site.css">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Dave Garcia","alternateName":"DG","jobTitle":"Director of Photography",
+ "url":"https://www.dgthings.com/","email":"mailto:dg@kombinemedia.com","telephone":"+1-310-292-1031",
+ "address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},
+ "sameAs":["https://www.instagram.com/______dg______/"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#s-0">Skip to work</a>
+
+<div class="hud" aria-hidden="true">
+  <i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i><span class="center"></span>
+  <span class="rec">REC</span><span class="tc" id="tc">00:00:00:00</span>
+  <span class="specs"><span>4K · 23.976</span><span>ISO 800</span><span>5600K</span><span>T2.8</span></span>
+  <span class="ctr" id="ctr">00 / 00</span>
+  <span class="progress"><b id="prog"></b></span>
+</div>
+
+<header class="top">
+  <a class="brand" id="brand" href="#s-intro">DG <b>///</b> Dave Garcia</a>
+  <nav aria-label="Main">
+    <button type="button" id="openIndex" aria-haspopup="dialog">Index</button>
+    <a href="#s-about">About</a>
+    <a href="#s-contact">Contact</a>
+    <a href="https://www.instagram.com/______dg______/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+  </nav>
+</header>
+
+<nav class="rail" id="rail" aria-label="Projects"></nav>
+
+<main id="main" tabindex="-1">
+  <section class="shot" id="s-intro" aria-label="Intro">
+    <div class="bg"><img class="ready" src="img/tudum-open.jpg" alt="" fetchpriority="high"></div>
+    <div class="copy">
+      <div>
+        <div class="kicker">DG /// Director of Photography</div>
+        <h1>Every<br>frame<br>counts.</h1>
+      </div>
+      <div class="actions">
+        <button class="btn play" type="button" data-play="tudum-cold-open">Play the latest</button>
+        <p>Dave Garcia shoots live events, brand films and music videos. Los Angeles based, available worldwide.</p>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">SCROLL</div>
+  </section>
+
+  <div id="shots"></div>
+
+  <section class="shot about" id="s-about" aria-labelledby="about-h">
+    <div class="photo"><img data-src="img/about.jpg" alt="Still from a Dave Garcia shoot"></div>
+    <div class="info">
+      <div class="kicker">// Behind the camera</div>
+      <h2 id="about-h">About DG</h2>
+      <!-- BIO: replace this paragraph with Dave's real bio -->
+      <p class="bio">Dave Garcia is a Los Angeles based director of photography. He shoots live broadcasts, brand films and music videos for clients like Netflix, Nickelodeon, Mattel, iHeartRadio and Woodford Reserve.</p>
+      <dl class="slate" id="slate"></dl>
+    </div>
+  </section>
+
+  <section class="shot end" id="s-contact" aria-labelledby="contact-h">
+    <div class="copy">
+      <div class="kicker">// Cut. Let's talk.</div>
+      <h2 id="contact-h"><a href="mailto:dg@kombinemedia.com">Book DG</a></h2>
+      <div class="lines">
+        <span><a href="mailto:dg@kombinemedia.com">dg@kombinemedia.com</a><button class="copy-email" type="button" id="copyEmail">Copy</button></span>
+        <a href="tel:+13102921031">310.292.1031</a>
+        <a href="https://www.instagram.com/______dg______/" target="_blank" rel="noopener">@______dg______</a>
+      </div>
+    </div>
+    <div class="foot">© <span id="yr">2026</span> Dave Garcia · Director of Photography · Los Angeles</div>
+  </section>
+</main>
+
+<!-- full project index -->
+<div class="index" id="index" role="dialog" aria-modal="true" aria-labelledby="index-h">
+  <button class="close" type="button" data-close-index>[ Esc ] Close</button>
+  <div class="index-head">
+    <div><div class="kicker" id="indexCount"></div><h2 id="index-h">All work</h2></div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by type"></div>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<!-- video player -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+  <button class="close" type="button" data-close-lb>[ Esc ] Close</button>
+  <div class="lb-frame" id="lbFrame"></div>
+  <div class="lb-bar">
+    <div>
+      <div class="lb-title" id="lbTitle"></div>
+      <div class="lb-sub" id="lbSub"></div>
+      <div class="lb-tabs" id="lbTabs"></div>
+    </div>
+    <div class="lb-ctrl">
+      <button type="button" id="lbShare" aria-label="Copy link to this video">⧉ <span class="lbl">Share</span></button>
+      <button type="button" id="lbPrev" aria-label="Previous project">← <span class="lbl">Prev</span></button>
+      <button type="button" id="lbNext" aria-label="Next project"><span class="lbl">Next</span> →</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript>
+  <style>main{height:auto}.shot{height:auto;min-height:60vh}</style>
+  <p style="padding:40px;font-family:monospace">Turn on JavaScript to watch the work, or email <a href="mailto:dg@kombinemedia.com">dg@kombinemedia.com</a>.</p>
+</noscript>
+
+<script src="js/projects.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
