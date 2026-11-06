@@ -41,6 +41,7 @@ Delete the old Squarespace records (`A @ 198.185.159.144`, and the `www` CNAME t
 DNS changes can take a few minutes to a few hours to work everywhere.
 
 ## Step 3 — Finish up
+0. Claude uploads the `CNAME` file. It was held back so the github.io preview works before the domain is switched.
 1. Dave: in the repo's **Settings → Pages**, set the custom domain to `www.dgthings.com` and turn on **Enforce HTTPS** once the certificate is ready.
 2. Check the live site on a phone and a computer.
 3. **Only after it works:** Dave cancels Squarespace. Keep the domain at GoDaddy, which is separate from Squarespace.
