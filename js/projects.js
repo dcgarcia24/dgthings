@@ -22,7 +22,7 @@ window.PROJECTS = [
   {
     slug: 'tudum-pink-guards', client: 'Netflix', title: 'TUDUM “Pink Guards”',
     type: 'Live Event', year: 2025, image: 'tudum-guards',
-    videos: [] // TODO: add the Vimeo link for Pink Guards
+    videos: [{ id: '1140817583', hash: '51dd4113e8' }]
   },
   {
     slug: 'tudum-cold-open', client: 'Netflix', title: 'TUDUM Cold Open',

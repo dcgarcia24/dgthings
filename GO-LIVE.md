@@ -5,7 +5,7 @@ The site is ready to host. **Nothing has been published yet.**
 ## Before going live
 - [ ] Dave approves the site
 - [ ] Real bio added (`index.html`, search `BIO:`)
-- [ ] Pink Guards Vimeo link added (`js/projects.js`), or the project removed
+- [x] Pink Guards Vimeo link added (`js/projects.js`), or the project removed
 - [ ] Project years checked (they're estimates from Vimeo upload dates)
 - [ ] Optional: a headshot for the About section
 
